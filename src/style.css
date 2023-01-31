@@ -1,1 +1,56 @@
 
+.trollImage{
+    width: 50px;
+}
+.headerContainer{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.heading{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+
+}
+.submit{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    margin-right: 21px;
+    cursor: pointer;
+}
+.imageDiv > img{
+    width: -webkit-fill-available;
+    max-height: 500px;
+}
+.imageDiv > h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.imageDiv > .bottom {
+    bottom: 0;
+}
+
+.imageDiv > .top {
+    top: 0;
+}
